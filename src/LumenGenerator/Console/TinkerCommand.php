@@ -11,7 +11,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Symfony\Component\VarDumper\Caster\Caster;
 
-class TinkerCommand extends Command
+class TinkerCommand extends AbstractCommand
 {
     /**
      * Illuminate application methods to include in the presenter.

@@ -8,7 +8,7 @@ use Illuminate\Support\Composer;
 use Symfony\Component\Console\Input\InputOption;
 use ClassPreloader\Exceptions\VisitorExceptionInterface;
 
-class OptimizeCommand extends Command
+class OptimizeCommand extends AbstractCommand
 {
     /**
      * The console command name.

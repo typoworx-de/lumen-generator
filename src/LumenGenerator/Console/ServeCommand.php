@@ -7,7 +7,7 @@ use Symfony\Component\Process\ProcessUtils;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Process\PhpExecutableFinder;
 
-class ServeCommand extends Command
+class ServeCommand extends AbstractCommand
 {
     /**
      * The console command name.

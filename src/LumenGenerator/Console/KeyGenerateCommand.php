@@ -5,7 +5,7 @@ namespace Flipbox\LumenGenerator\Console;
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
 
-class KeyGenerateCommand extends Command
+class KeyGenerateCommand extends AbstractCommand
 {
     use ConfirmableTrait;
 

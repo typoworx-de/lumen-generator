@@ -5,7 +5,7 @@ namespace Flipbox\LumenGenerator\Console;
 use Dingo\Api\Routing\Router;
 use Illuminate\Console\Command;
 
-class RouteListCommand extends Command
+class RouteListCommand extends AbstractCommand
 {
     /**
      * The console command name.

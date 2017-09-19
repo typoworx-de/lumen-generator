@@ -4,7 +4,7 @@ namespace Flipbox\LumenGenerator\Console;
 
 use Illuminate\Console\Command;
 
-class ClearCompiledCommand extends Command
+class ClearCompiledCommand extends AbstractCommand
 {
     /**
      * The console command name.
