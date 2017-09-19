@@ -3,7 +3,7 @@ namespace Flipbox\LumenGenerator\Console;
 
 use Illuminate\Console\Command;
 
-class AbstractCommand extends Command
+abstract class AbstractCommand extends Command
 {
     /**
      * Shorthand for Laravel 5.5.*
